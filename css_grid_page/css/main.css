@@ -57,6 +57,7 @@
   .post-card{
     border: 1px solid black;
     padding: 1vh;
+    margin: 1vh 0;
   }
   
   .card-title{
@@ -78,4 +79,5 @@
     color: black;
     background-color: antiquewhite;
   }
+
   
