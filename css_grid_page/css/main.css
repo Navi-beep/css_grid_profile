@@ -26,9 +26,20 @@
      text-decoration: none;
    }
 
-  .prof-pic { grid-area: prof-pic; }
+  .prof-pic { 
+    grid-area: prof-pic;
+    display: flex;
+    align-items: center;
+   }
   
-  .prof-info { grid-area: prof-info; }
+  #profilePic {
+    width: 100%;
+    height: auto;
+   }
+  
+  .prof-info { 
+    grid-area: prof-info; 
+  }
   
   .posts { 
     grid-area: posts;
